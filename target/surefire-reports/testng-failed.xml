@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OHRM]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.ohrm.testcases.LoginPageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="ForgotPasswordLinkTest"/>
+          <include name="validateLoginTest"/>
+          <include name="CompanyLinkTest"/>
+          <include name="validateTitleTest"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.ohrm.testcases.LoginPageTest -->
+      <class name="com.ohrm.testcases.DashboardPageTest">
+        <methods>
+          <include name="QuickLaunchSection"/>
+          <include name="closeSetUp"/>
+          <include name="browserConfig"/>
+          <include name="EmployeesonLeaveTodaySection"/>
+          <include name="BuzzLatepostsection"/>
+          <include name="EmployeeDistributionbyLocationSection"/>
+          <include name="myActionSection"/>
+        </methods>
+      </class> <!-- com.ohrm.testcases.DashboardPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [OHRM] -->
